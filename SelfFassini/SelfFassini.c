@@ -61,14 +61,14 @@ int Selfassini(void) {
 	SetDelete.DeleteFile = TRUE;
 	okay("finished!");
 
-	/*------------------[SET NEW DATA STREAM BUFFER & SIZE IN FILE_RENAME_INFO]------------------*/
+	/*------------------[SET new  buffer for  FILE_RENAME_INFO]------------------*/
 	PFRI->FileNameLength = sizeof(NEWSTREAM);
 	okay("set FILE_RENAME_INFO->FileNameLength to %s",NEWSTREAM);
 	RtlCopyMemory(PFRI->FileName, NEWSTREAM, sizeof(NEWSTREAM));
 	okay("overwrote FILE_RENAME_INFO->FileName with %s data stream", NEWSTREAM);
 	okay("\\___[ FILE_RENAME_INFO->FileName\n\t\\___%s]", PFRI->FileName);
 
-	/*------------------[GET CURRENT FILENAME]------------------*/
+	/*------------------[GET current filename]------------------*/
 	info("getting current filename");
 	if (GetModuleFileNameW(NULL, PathSize, MAX_PATH * 2) == 0) {
 		warn("[GetModuleFileNameW] failed to get filename, error: 0x%lx", CustomError());
