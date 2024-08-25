@@ -1,0 +1,12 @@
+﻿  Assembling ..\..\IsDebbugerHna\IsDebbugerHna\checkDebigr.asm...
+  Assembling ..\..\MyLastError\MyLastError\MyLastError.asm...
+  SelfFassini.c
+C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\SelfFassini\SelfFassini.c(66,2): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'const wchar_t *'
+C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\SelfFassini\SelfFassini.c(68,2): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'const wchar_t *'
+C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\SelfFassini\SelfFassini.c(69,2): warning C4477: 'printf' : la chaîne de format '%s' nécessite un argument de type 'char *', mais l'argument variadique 1 est de type 'WCHAR *'
+C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\SelfFassini\SelfFassini.c(82,94): warning C4047: 'fonction' : les niveaux d'indirection de 'DWORD' et de 'void *' sont différents
+C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\SelfFassini\SelfFassini.c(82,94): warning C4024: 'CreateFileW' : types différents pour le paramètre formel et réel 6
+C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\SelfFassini\SelfFassini.c(91,63): warning C4267: 'fonction' : conversion de 'size_t' en 'DWORD', perte possible de données
+C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\SelfFassini\SelfFassini.c(102,94): warning C4047: 'fonction' : les niveaux d'indirection de 'DWORD' et de 'void *' sont différents
+C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\SelfFassini\SelfFassini.c(102,94): warning C4024: 'CreateFileW' : types différents pour le paramètre formel et réel 6
+  SelfFassini.vcxproj -> C:\Users\Win-Malware01\Desktop\Malwares folder\S4L1M\SelfFassini\x64\Debug\SelfFassini.exe
