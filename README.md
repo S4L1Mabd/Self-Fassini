@@ -27,3 +27,19 @@ The malware follows these steps to delete itself:
 - Retrieve the file's name and temporarily rename it.
 - Set the `FileDispositionInfo` struct's `Delete` flag to true.
 - Close the file handle, which causes the file to be deleted by the OS.
+
+## If you want To try it just clone the project and compile it with VS Studio 
+### Notice : you should disable just-in-time windows defender if you want to run it  
+### Usage
+
+#### Run the exe file  with the  process ID thet you want to inject the payload on it (PID) and add if you want The thread Id :
+
+    ```bash
+    Selfasini.exe <PID> <TID>
+    ```
+
+
+
+#### license
+all license are preserved  
+
