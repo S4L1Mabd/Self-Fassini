@@ -1,3 +1,12 @@
+<!--   my-ticker -->    
+<!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%F0E68C&center=true&vCenter=true&width=250&lines=S4L1M+MalWareDev"")](https://git.io/typing-svg) -->
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?color=%F0E68C&center=true&vCenter=true&width=250&lines=S4L1M+MalWareDev" alt="Typing SVG">
+  </a>
+</p>
+
 # Malware Model: Anti-Debugging and Self-Deletion
 
 This repository demonstrates a simple malware model that detects the presence of a debugger and deletes itself if one is found. The model uses the PEB structure to detect debuggers and implements a self-deletion technique by manipulating file attributes.
